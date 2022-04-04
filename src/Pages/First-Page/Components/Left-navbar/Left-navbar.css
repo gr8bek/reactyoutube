@@ -1,0 +1,87 @@
+.navlink {
+  height: 20px;
+  left: 3.39%;
+  right: 91.41%;
+  top: calc(50% - 20px / 2 - 379px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.navlink:hover {
+  height: 20px;
+  left: 3.39%;
+  right: 94.27%;
+  top: calc(50% - 20px / 2 - 476px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff0000;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.navlink:hover svg path {
+  fill: #ff0000;
+}
+
+.navlink svg {
+  margin-right: 10px;
+}
+
+.subscriptors {
+  height: 20px;
+  left: 3.44%;
+  right: 92.34%;
+  top: calc(50% - 20px / 2 + 423px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.subscriptors:hover {
+  color: #ff0000;
+}
+
+.setting {
+  height: 20px;
+  left: 3.39%;
+  right: 93.85%;
+  top: calc(50% - 20px / 2 + 550px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+  display: flex;
+  align-items: center;
+}
+
+.setting:hover {
+  opacity: 1;
+  transition: 0.3s;
+  color: #ff0000;
+}
+
+.setting:hover svg path {
+  fill: #ff0000;
+}
+
+.setting svg {
+  margin-right: 10px;
+}
